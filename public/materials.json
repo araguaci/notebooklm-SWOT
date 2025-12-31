@@ -1,5 +1,83 @@
 {
-  "materials": [],
-  "notebooks": []
+  "materials": [
+    {
+      "id": "plano-estrategico-tows",
+      "title": "Plano Estratégico Baseado na Análise SWOT Cruzada (TOWS)",
+      "description": "Documento completo que articula um plano estratégico projetado para converter diagnósticos analíticos em resultados tangíveis. Inclui fundamentos da análise SWOT, estudo de caso prático, metodologia TOWS e consolidação do plano estratégico.",
+      "type": "document",
+      "file": "plano-estrategico-baseado-na-analise-swot-cruzada-tows.md",
+      "category": "documentos",
+      "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "tags": ["SWOT", "TOWS", "Planejamento Estratégico", "Análise", "Estratégia"]
+    },
+    {
+      "id": "swot-estrategico-pdf",
+      "title": "SWOT Estratégico: Da Análise à Ação",
+      "description": "Documento em PDF sobre análise SWOT estratégica, abordando desde o diagnóstico até a implementação de ações práticas.",
+      "type": "document",
+      "file": "swot-estrategico-da-analise-a-acao.pdf",
+      "category": "documentos",
+      "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "tags": ["SWOT", "Estratégia", "Análise", "PDF"]
+    },
+    {
+      "id": "video-analise-swot",
+      "title": "Análise SWOT: Do Diagnóstico à Ação",
+      "description": "Vídeo explicativo sobre análise SWOT, demonstrando o processo completo desde o diagnóstico até a implementação de estratégias acionáveis.",
+      "type": "video",
+      "file": "analise-swot-do-diagnostico-a-acao.mp4",
+      "category": "videos",
+      "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "tags": ["SWOT", "Vídeo", "Tutorial", "Estratégia"]
+    },
+    {
+      "id": "matriz-estrategias-swot",
+      "title": "Matriz e Estratégias da Análise SWOT",
+      "description": "Visualização gráfica da matriz SWOT e das estratégias derivadas, facilitando a compreensão dos fatores internos e externos.",
+      "type": "image",
+      "file": "matriz-e-estrategias-da-analise-swot.png",
+      "category": "imagens",
+      "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "tags": ["SWOT", "Matriz", "Infográfico", "Visualização"]
+    },
+    {
+      "id": "analise-swot-cruzada-estrategias",
+      "title": "Análise SWOT Cruzada e Estratégias",
+      "description": "Infográfico detalhado sobre análise SWOT cruzada (TOWS), apresentando as quatro estratégias: Ofensiva, Confrontativa, Reforço e Defensiva.",
+      "type": "image",
+      "file": "analise-swot-cruzada-e-estrategias.png",
+      "category": "imagens",
+      "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "tags": ["SWOT", "TOWS", "Estratégias", "Infográfico"]
+    },
+    {
+      "id": "potencialize-estrategia-swot",
+      "title": "Potencialize Estratégia com SWOT Cruzada",
+      "description": "Visualização sobre como potencializar estratégias utilizando a metodologia de análise SWOT cruzada.",
+      "type": "image",
+      "file": "potencialize-estrategia-com-swot-cruzada.png",
+      "category": "imagens",
+      "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "tags": ["SWOT", "TOWS", "Estratégia", "Potencialização"]
+    },
+    {
+      "id": "mind-map-swot",
+      "title": "Mapa Mental - Análise SWOT",
+      "description": "Mapa mental visualizando os conceitos, relações e estratégias da análise SWOT de forma interconectada.",
+      "type": "image",
+      "file": "mind-map.png",
+      "category": "imagens",
+      "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "tags": ["SWOT", "Mapa Mental", "Visualização", "Conceitos"]
+    }
+  ],
+  "notebooks": [
+    {
+      "id": "b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "url": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
+      "title": "NotebookLM - Análise SWOT",
+      "description": "Notebook do Google NotebookLM para análise e organização de materiais sobre análise SWOT e estratégias TOWS"
+    }
+  ]
 }
 
