@@ -89,11 +89,12 @@ O script irá perguntar todas as informações necessárias e adicionar automati
 }
 ```
 
-## 📖 Guia Completo
+## 📖 Guias Disponíveis
 
-Para instruções detalhadas sobre como baixar e organizar materiais do NotebookLM, consulte:
+Para instruções detalhadas, consulte:
 
-- [📘 GUIA_ADICIONAR_MATERIAIS.md](./GUIA_ADICIONAR_MATERIAIS.md) - Guia completo passo a passo
+- [📘 GUIA_ADAPTACAO_TEMPLATE.md](./GUIA_ADAPTACAO_TEMPLATE.md) - **NOVO!** Guia completo para adaptar o template para novos projetos
+- [📗 GUIA_ADICIONAR_MATERIAIS.md](./GUIA_ADICIONAR_MATERIAIS.md) - Guia para adicionar materiais ao catálogo
 - [📋 README_MATERIAIS.md](./README_MATERIAIS.md) - Visão geral do sistema
 
 ## 🎯 Tipos de Material Suportados

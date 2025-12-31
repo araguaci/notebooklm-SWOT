@@ -227,7 +227,7 @@ const NotebookSection = () => {
         className="text-center mb-8"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
-          Notebook Vinculado
+          Notebooks Vinculados
         </h2>
       </motion.div>
 
