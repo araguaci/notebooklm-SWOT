@@ -324,9 +324,9 @@ const MaterialCard = ({
             {icon}
           </div>
           <a
-            href={`/${file}`}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={file.endsWith('.mdx') ? `/docs/${file.replace('.mdx', '')}` : `/${file}`}
+            target={file.endsWith('.mdx') ? undefined : "_blank"}
+            rel={file.endsWith('.mdx') ? undefined : "noopener noreferrer"}
             className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
             onClick={(e) => {
               if (type === "image") {
@@ -356,23 +356,35 @@ const MaterialCard = ({
         )}
 
         <div className="flex flex-wrap gap-2">
-          <a
-            href={`/${file}`}
-            download
-            className="flex items-center gap-2 px-4 py-2 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-400 rounded-lg text-sm font-medium transition-colors"
-          >
-            <Download size={16} />
-            Baixar
-          </a>
-          <a
-            href={`/${file}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-gray-300 rounded-lg text-sm font-medium transition-colors"
-          >
-            <ExternalLink size={16} />
-            Abrir
-          </a>
+          {file.endsWith('.mdx') ? (
+            <a
+              href={`/docs/${file.replace('.mdx', '')}`}
+              className="flex items-center gap-2 px-4 py-2 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-400 rounded-lg text-sm font-medium transition-colors"
+            >
+              <ExternalLink size={16} />
+              Visualizar
+            </a>
+          ) : (
+            <>
+              <a
+                href={`/${file}`}
+                download
+                className="flex items-center gap-2 px-4 py-2 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-400 rounded-lg text-sm font-medium transition-colors"
+              >
+                <Download size={16} />
+                Baixar
+              </a>
+              <a
+                href={`/${file}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-gray-300 rounded-lg text-sm font-medium transition-colors"
+              >
+                <ExternalLink size={16} />
+                Abrir
+              </a>
+            </>
+          )}
           {notebookUrl && (
             <a
               href={notebookUrl}

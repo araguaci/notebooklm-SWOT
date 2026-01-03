@@ -130,7 +130,7 @@ Edite o arquivo `public/materials.json`:
       "title": "Plano Estratégico Baseado na Análise SWOT Cruzada (TOWS)",
       "description": "Documento completo que articula um plano estratégico...",
       "type": "document",
-      "file": "plano-estrategico-baseado-na-analise-swot-cruzada-tows.md",
+      "file": "plano-estrategico-baseado-na-analise-swot-cruzada-tows.mdx",
       "category": "documentos",
       "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
       "tags": ["SWOT", "TOWS", "Planejamento Estratégico"]

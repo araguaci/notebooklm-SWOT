@@ -5,7 +5,7 @@
       "title": "Plano Estratégico Baseado na Análise SWOT Cruzada (TOWS)",
       "description": "Documento completo que articula um plano estratégico projetado para converter diagnósticos analíticos em resultados tangíveis. Inclui fundamentos da análise SWOT, estudo de caso prático, metodologia TOWS e consolidação do plano estratégico.",
       "type": "document",
-      "file": "plano-estrategico-baseado-na-analise-swot-cruzada-tows.md",
+      "file": "plano-estrategico-baseado-na-analise-swot-cruzada-tows.mdx",
       "category": "documentos",
       "notebookUrl": "https://notebooklm.google.com/notebook/b6025eba-787a-480f-8f3f-d70f2e5873a8",
       "tags": ["SWOT", "TOWS", "Planejamento Estratégico", "Análise", "Estratégia"]
@@ -83,6 +83,12 @@
       "url": "https://notebooklm.google.com/notebook/b7c32ecc-f087-4cfc-899f-123715afc7e5",
       "title": "5W2H: Do Planejamento à Execução",
       "description": "Transforme suas ideias em ações concretas com a metodologia 5W2H. Este guia prático explora ferramentas estruturadas de gestão e planejamento estratégico."
+    },
+    {
+      "id": "1b6272b0-a2a5-4037-9893-e60eab28bd6f",
+      "url": "https://notebooklm.google.com/notebook/1b6272b0-a2a5-4037-9893-e60eab28bd6f",
+      "title": "Análise PESTEL",
+      "description": "Guia Estratégico e Aplicações no Mercado Moderno"
     }
   ]
 }
